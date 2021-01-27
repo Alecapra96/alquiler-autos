@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+ 
 }
 header
 {
@@ -86,7 +87,6 @@ header .logo
 {
   position: relative;
   z-index: 10;
-  
 }
 
 .text h2
@@ -201,19 +201,17 @@ header .logo
   {
     font-size: 2em;
   }
+ 
 }
 
 .box {
     
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1050px;
-    height: 300px;
-    margin: 1rem;
+    height: 80px;
+
     border-radius: 10px;
-    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.3);
     transform: translateX(400%);
     transition: transform 0.4s ease;
   }
@@ -227,7 +225,9 @@ header .logo
   }
   
   .box h2 {
-    font-size: 36px;
+    font-size: 50px;
   }
+
+  
   
 

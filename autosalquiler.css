@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
- 
 }
 header
 {
@@ -60,19 +59,9 @@ header .logo
 }
 .showcase.active
 {
-  right: 300px;
+  right: 280px;
 }
 
-.showcase video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.8;
-}
 .overlay
 {
   position: absolute;
@@ -83,10 +72,15 @@ header .logo
   background: #03a9f4;
   mix-blend-mode: overlay;
 }
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
 .text
 {
   position: relative;
   z-index: 10;
+  
 }
 
 .text h2
@@ -201,8 +195,11 @@ header .logo
   {
     font-size: 2em;
   }
- 
 }
+
+
+
+
 
 .box {
     

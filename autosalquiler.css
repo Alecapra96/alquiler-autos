@@ -206,7 +206,8 @@ header .logo
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    text-align: center;
+  height: 60px;
 
     border-radius: 10px;
     transform: translateX(400%);
